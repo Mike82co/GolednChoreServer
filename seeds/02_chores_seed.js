@@ -8,14 +8,14 @@ exports.seed = function(knex, Promise) {
         description:'Wash the dishes',
         value:2,
         dateDue:"2-10-2019",
-        kidID:null
+        
       }, {
         id: 2,
         choreName: 'dishes',
         description:'Wash the dishes',
         value:2,
         dateDue:"2-10-2019",
-        kidID:null
+        
       },
       {
         id: 3,
@@ -23,7 +23,7 @@ exports.seed = function(knex, Promise) {
         description:'Wash the dishes',
         value:2,
         dateDue:"2-10-2019",
-        kidID:null
+        
       }];
       return knex('chores').insert(chores);
     });

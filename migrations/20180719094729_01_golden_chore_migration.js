@@ -6,7 +6,6 @@ exports.up = function(knex, Promise) {
     table.text('description').notNullable();
     table.integer('value');
     table.date('dateDue');
-    table.integer('kidID').references('kids.id').unsigned().onDelete('cascade')
     })
   };
 
