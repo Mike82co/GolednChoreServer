@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
       }, {
         id: 2,
         choreName: 'laundry',
-        description:'you stink!   was yur stuff!!!',
+        description:'you stink! Wash your stuff!!!',
         value:2,
         dateDue:"5-15-2020",
         
@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
       {
         id: 3,
         choreName: 'Feed the pooch',
-        description:'You wanted a puppy. Now ',
+        description:'You wanted a puppy. Now take care of it',
         value:2,
         dateDue:"12-12-2030",
         
