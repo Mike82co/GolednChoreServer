@@ -11,18 +11,18 @@ exports.seed = function(knex, Promise) {
         
       }, {
         id: 2,
-        choreName: 'dishes',
-        description:'Wash the dishes',
+        choreName: 'laundry',
+        description:'you stink!   was yur stuff!!!',
         value:2,
-        dateDue:"2-10-2019",
+        dateDue:"5-15-2020",
         
       },
       {
         id: 3,
-        choreName: 'dishes',
-        description:'Wash the dishes',
+        choreName: 'Feed the pooch',
+        description:'You wanted a puppy. Now ',
         value:2,
-        dateDue:"2-10-2019",
+        dateDue:"12-12-2030",
         
       }];
       return knex('chores').insert(chores);
