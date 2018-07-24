@@ -8,6 +8,8 @@ exports.seed = function(knex, Promise) {
         description:'Wash the dishes',
         value:2,
         dateDue:"2-10-2019",
+        assignedTo:"Mike"
+
         
       }, {
         id: 2,
@@ -15,6 +17,7 @@ exports.seed = function(knex, Promise) {
         description:'you stink! Wash your stuff!!!',
         value:2,
         dateDue:"5-15-2020",
+        assignedTo:"Lucy"
         
       },
       {
@@ -23,6 +26,7 @@ exports.seed = function(knex, Promise) {
         description:'You wanted a puppy. Now take care of it',
         value:2,
         dateDue:"12-12-2030",
+        assignedTo:"bobby"
         
       }];
       return knex('chores').insert(chores);
