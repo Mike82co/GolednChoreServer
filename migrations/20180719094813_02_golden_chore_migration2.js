@@ -4,7 +4,6 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.text('name').notNullable();
     table.integer('balance');
-    table.integer('assignedChores');
     })
   };
 

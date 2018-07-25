@@ -26,7 +26,7 @@ exports.seed = function(knex, Promise) {
         description:'You wanted a puppy. Now take care of it',
         value:2,
         dateDue:"12-12-2030",
-        assignedTo:"bobby"
+        assignedTo:"Bobby"
         
       }];
       return knex('chores').insert(chores);
